@@ -6,7 +6,8 @@ apply plugin: 'java'
 sourceCompatibility = 1.5
 
 repositories {
-    mavenCentral()
+    jcenter() // fast!
+    mavenCentral()// very slow
 }
 
 dependencies {
